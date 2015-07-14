@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1937979617">
+    <data-source source="LOCAL" name="Rails tjConnection: development" uuid="3ffcbebe-99ca-4b20-a2e5-38e5c92fa04e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:///tjConnection_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails tjConnection: test" uuid="da1024f8-d0c7-49b2-ad8f-e9d9a7741140">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/tjConnection_test</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails tjConnection: development" uuid="3ffcbebe-99ca-4b20-a2e5-38e5c92fa04e">
+      <user-name>postgres</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <schema-pattern>tjConnection_development.pg_catalog tjConnection_development.public</schema-pattern>
+      <default-schemas>tjConnection_development.pg_catalog tjConnection_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails tjConnection: test" uuid="da1024f8-d0c7-49b2-ad8f-e9d9a7741140">
+      <first-sync>true</first-sync>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    </data-source>
+  </component>
+</project>

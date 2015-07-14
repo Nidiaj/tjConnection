@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  database: tjConnection_development
+  user: postgres
+  password: password
+  host: localhost
+
+
+test:
+  adapter: postgresql
+  database: tjConnection_test
+  user: postgres
+  password: password
+  host: localhost
