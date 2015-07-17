@@ -2,7 +2,6 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails tjConnection: development" uuid="3ffcbebe-99ca-4b20-a2e5-38e5c92fa04e">
-      <user-name>postgres</user-name>
       <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
       <schema-pattern>tjConnection_development.pg_catalog tjConnection_development.public</schema-pattern>
       <default-schemas>tjConnection_development.pg_catalog tjConnection_development.public</default-schemas>

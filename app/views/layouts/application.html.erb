@@ -7,8 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="header">
+
+  <%= navbar :static-top  do %>
+      <%= link_to 'Home', root_path %>
+      <%= link_to 'Add Restaurant', new_restaurant_path %>
+  <% end %>
+</div>
 
 <%= yield %>
+<div id="footer"></div>
 
 </body>
 </html>

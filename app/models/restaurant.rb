@@ -1,6 +1,10 @@
 class Restaurant < ActiveRecord::Base
   has_many :reviews
 
+  has_attached_file :image, styles: { medium: "300x300#>" }
+
+  validates_attachment_file_name :image, :matches => [/.*/]#[/png\Z/, /jpeg\Z/, /gif\Z/]
+
   validates :name, presence: true, uniqueness: true
   validates :address, presence: true
   validates_length_of :rating, :minimum => 1, :maximum => 5
