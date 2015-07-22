@@ -10,7 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # gem 'tzinfo-data'
 gem 'paperclip'
-
+gem 'bh', '~> 1.2'
 
 
 

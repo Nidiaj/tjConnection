@@ -6,25 +6,16 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body style="background-color:lightgrey">
-<div id="header" >
+<body>
+<div id="header">
 
-  <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="container">
-    <h1 class="muted" style="color:red">tj<sub>Connection</sub></h1>
-    </div>
-                  <ul class="nav-links">
-
-                      <%= link_to 'Home', root_path %>
-                      <%= link_to 'Add Restaurant', new_restaurant_path %>
-
-                    </ul>
-
-    </div>
-
+  <%= navbar :static-top  do %>
+      <%= link_to 'Home', root_path %>
+      <%= link_to 'Add Restaurant', new_restaurant_path %>
+  <% end %>
+</div>
 
 <%= yield %>
-
 <div id="footer"></div>
 
 </body>

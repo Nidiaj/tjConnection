@@ -10,7 +10,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 10px;
+  margin: 0;
 }
 article,
 aside,
@@ -199,9 +199,6 @@ th {
             box-shadow: none !important;
   }
   a,
-  a:link {
-      color: #FF0000;
-  }
   a:visited {
     text-decoration: underline;
   }
