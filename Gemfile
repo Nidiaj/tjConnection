@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # gem 'tzinfo-data'
 gem 'paperclip'
+gem 'devise'
 
 
 

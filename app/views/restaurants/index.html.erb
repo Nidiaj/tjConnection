@@ -16,6 +16,7 @@
   <tbody>
     <% @restaurants.each do |restaurant| %>
       <tr>
+        <td><%= image_tag restaurant.image.url(:medium)%></td>
         <td><%= restaurant.name %></td>
         <td><%= restaurant.address %></td>
         <td><%= restaurant.rating %></td>
@@ -32,4 +33,4 @@
 
 <%= link_to 'New Restaurant', new_restaurant_path %><br>
 
-<iframe src="http://www.bordertraffic.com/California-Baja/San-Ysidro-Tijuana/Bridge-II.aspx" width="500" height="400" style="border:none></iframe>
+<iframe src="http://www.bordertraffic.com/California-Baja/San-Ysidro-Tijuana/Bridge-II.aspx" width="500" height="400" style="border:none"></iframe>

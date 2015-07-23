@@ -7,23 +7,29 @@
   <%= csrf_meta_tags %>
 </head>
 <body style="background-color:lightgrey">
-<div id="header" >
+<div id="header">
 
   <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container">
-    <h1 class="muted" style="color:red">tj<sub>Connection</sub></h1>
+        <h1 class="muted" style="color:red">tj<sub>Connection</sub></h1>
     </div>
-                  <ul class="nav-links">
-
-                      <%= link_to 'Home', root_path %>
-                      <%= link_to 'Add Restaurant', new_restaurant_path %>
-
-                    </ul>
+    <ul class="nav-links">
+      <li>
+        <%= link_to 'Home', root_path %>
+      </li>
+      <li>
+        <%= link_to 'Add Restaurant', new_restaurant_path %>
+      </li>
+    </ul>
 
     </div>
+  </nav>
 
+    <% flash.each do |name, msg| %>
+        <%= content_tag(:div, msg, class: "alert alert-info") %>
+    <% end %>
+    <%= yield %>
 
-<%= yield %>
 
 <div id="footer"></div>
 
