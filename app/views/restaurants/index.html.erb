@@ -23,9 +23,11 @@
         <td><%= restaurant.description %></td>
         <td><%= link_to 'Show', restaurant %></td>
         <td><%= link_to 'Edit', edit_restaurant_path(restaurant) %></td>
-        <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <!--<td><%# link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
       </tr>
     <% end %>
+
+
   </tbody>
 </table>
 
@@ -33,4 +35,4 @@
 
 <%= link_to 'New Restaurant', new_restaurant_path %><br>
 
-<iframe src="http://www.bordertraffic.com/California-Baja/San-Ysidro-Tijuana/Bridge-II.aspx" width="500" height="400" style="border:none"></iframe>
+<!--<iframe src="http://www.bordertraffic.com/California-Baja/San-Ysidro-Tijuana/Bridge-II.aspx" width="500" height="400" style="border:none"></iframe>-->
